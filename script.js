@@ -1,0 +1,1 @@
+async function u(){try{let r=await fetch('count.json?'+Date.now());let j=await r.json();document.getElementById('count').textContent=j.nukes}catch(e){}}u();setInterval(u,5000);
